@@ -1,27 +1,25 @@
-# TITRE
+# CPW - CSS : Examen de juin 2025
 
-> HTML exercise given at [HEPL](https://hepl.be)
+## Indifie
 
-* * *
+Vous trouverez dans ce dossier trois pages HTML nommées [**index.html**](./index.html), [**login.html**](./html/login.html), [**backxwash.html**](./html/backxwash.html). Vous disposez de tout le matériel nécessaire pour réaliser cet exercice dans les dossiers suivants : **img**, **fonts** et **rendus**.
 
-**TITRE** is an educational project, which will be used for `HTML`/`CSS` courses.
+Le rendu final attendu est illustré ci-dessous : 
 
-**Note:** the school where the course is given, the [HEPL](https://hepl.be/fr/art560) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in French.
+- ![rendu final](./rendus/jpg/Onboarding.jpg)
+- ![rendu final](./rendus/jpg/Login.jpg)
+- ![rendu final](./rendus/jpg/Backxwash.jpg)
 
-* * *
+### Consignes
 
-## Un titre plus long pour l’exercice
+* Liez le fichier **reset.css** d'[Eric Meyer](https://meyerweb.com/eric/tools/css/reset/) aux différentes pages HTML.
+* En vous appuyant sur les rendus attendus dans le fichier Figma, complétez les feuilles de styles CSS.
+* Toutes les images à utiliser se trouvent dans le dossier **img**.
+* La police utilisée est Poppins. Elle est disponible dans le dossier **fonts**.
 
-Énoncé :
-- Cahier des charges ;
-- description du matériel fourni ;
-- éventuellement consignes plus précises ;
-- éventuellement aides ;
-- ressources s’il échet.
+### Outils
 
-Visuels :
-- copie d'écran du rendu final avec CSS ;
-- copie d'écran éventuelle du rendu final sans CSS ;
-- copie d'écran des outlines selon les deux algorithmes s’il échet ;
-- querystring des données envoyées par le formulaire s’il échet ;
-- copie d'écran du validateur de microdata de schema.org s’il échet.
+- [css-steptools](https://github.com/tecg-cpw/css-steptools)
+- [Comment masquer un élément visuellement ?](https://css-tricks.com/inclusively-hidden/)
+
+Adaptation et intégration par [François Parmentier](https://github.com/fprms).

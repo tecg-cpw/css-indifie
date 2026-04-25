@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="description" content="Indifie, une plateforme de streaming alternatives et indépendantes pour des artistes qui le sont tout autant">
+        <meta name="keywords" content="indie, music, streaming, alternative">
+        <meta name="author" content="Jean Dupont">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Indifie - Login
+        </title>
+    </head>
+    <body class="login">
+        <a href="#mainContent" class="hidden">Aller au contenu principal</a>
+        <header>
+            <img src="../img/logo.svg" alt="" width="241" height="240" class="logo">
+            <h1 class="main-title">
+                Bienvenue sur <span class="logotype">Indifie</span>
+            </h1>
+        </header>
+        <main id="mainContent">
+            <form action="../html/backxwash.html" method="post">
+                <div class="input-wrapper email">
+                    <label for="email">
+                        Email&nbsp;:
+                    </label>
+                    <input type="email" id="email" name="email" value="" class="input-field input-email">
+                </div>
+                <div class="input-wrapper pw">
+                    <label for="password" class="label">
+                        Password&nbsp;:
+                    </label>
+                    <input type="password" id="password" name="password" value="" class="input-field input-pw">
+                </div>
+                <a href="#" class="forgotten-password">
+                    mot de passe oublié&nbsp;?
+                </a>
+                <button type="submit" name="sendInfo" class="button button--submit">
+                    Se connecter
+                </button>
+            </form>
+            <p class="footer">
+                Pas encore de compte&nbsp;? <a href="#" class="footer-create-account">Inscrivez-vous&nbsp;!</a>
+            </p>
+        </main>
+    </body>
+</html>
